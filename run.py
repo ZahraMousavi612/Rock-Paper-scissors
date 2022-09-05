@@ -39,5 +39,19 @@ def game(user_input):
     else:
         print("\tComputer Won!")
         computer_score += 1
-user_name=input("enter your name")
-Print(user_name)
+        
+# main section and game start point _________________________________________________________________
+while True:
+    
+    user_input = input("Type [ Rock ] / [ Paper ] / [ Scissors ] or Q to quit: ").lower()
+    if user_input == "q":
+        break
+    elif user_input not in options:
+        continue
+    else:
+        game(user_input)
+
+# output (when palyer exit the game)
+print(f'You won [{user_score}] times.')
+print(f'The computer won [{computer_score}] times.')
+print("Goodbye!")
