@@ -19,5 +19,25 @@ def game(user_input):
     print(f'{user_name} picked {user_input} .')
     print(f'Computer picked {computer_pick} .')
     get_result(user_input,computer_pick)
+    
+    def get_result(user_input,computer_pick):
+    """check the result""" 
+    global user_score, computer_score
+    
+    if user_input == computer_pick :
+        print("\tMatch has been the same!")
+
+    elif user_input == "rock" and computer_pick == "scissors":
+        print("\tYou Won!")
+        user_score += 1
+    elif user_input == "paper" and computer_pick == "rock":
+        print("\tYou Won!")
+        user_score += 1
+    elif user_input == "scissors" and computer_pick == "paper":
+        print("\tYou Won!")
+        user_score += 1
+    else:
+        print("\tComputer Won!")
+        computer_score += 1
 user_name=input("enter your name")
 Print(user_name)
