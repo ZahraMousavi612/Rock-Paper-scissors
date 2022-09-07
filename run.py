@@ -1,14 +1,12 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
-
+import sys
 import random
-
 # modify score varible
-user_score = 0 
+user_score = 0
 computer_score = 0
 options = ["rock", "paper", "scissors"]
-user_name = input("Welcome to Rock, Paper, Scissors Game.\nPlease Enter Your Name? ")
+print("Welcome to Rock, Paper, Scissors Game.")
+user_name = input("Please Enter Your Name? ")
+
 
 def game(user_input):
     """calculate the computer option"""
@@ -18,15 +16,15 @@ def game(user_input):
     computer_pick = options[random_number]
     print(f'{user_name} picked {user_input} .')
     print(f'Computer picked {computer_pick} .')
-    get_result(user_input,computer_pick)
-    
-    def get_result(user_input,computer_pick):
-    """check the result""" 
-    global user_score, computer_score
-    
-    if user_input == computer_pick :
-        print("\tMatch has been the same!")
+    get_result(user_input, computer_pick)
 
+
+def get_result(user_input, computer_pick):
+    """check the result"""
+    global user_score, computer_score
+
+    if user_input == computer_pick:
+        print("\tMatch has been the same!")
     elif user_input == "rock" and computer_pick == "scissors":
         print("\tYou Won!")
         user_score += 1
@@ -39,11 +37,12 @@ def game(user_input):
     else:
         print("\tComputer Won!")
         computer_score += 1
-        
-# main section and game start point _________________________________________________________________
-while True:
-    
-    user_input = input("Type [ Rock ] / [ Paper ] / [ Scissors ] or Q to quit: ").lower()
+    return user_input, user_score, computer_score
+
+
+# main section and game start point
+while True :
+    user_input = input("Type Rock , Paper , Scissors or Q to quit: ").lower()
     if user_input == "q":
         break
     elif user_input not in options:
@@ -55,3 +54,4 @@ while True:
 print(f'You won [{user_score}] times.')
 print(f'The computer won [{computer_score}] times.')
 print("Goodbye!")
+sys.exit()
