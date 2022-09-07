@@ -32,3 +32,31 @@ This game plays between user and computer, in which each player simultaneously s
 These options are "rock", "paper", and "scissors". It has three possible outcomes: a draw, a win, or a loss.
 
  A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same option, the result will be draw.
+
+
+## Features
+
+#### __Key Features__
+
+  - Talk the user name first.
+  - All inputs are validated and checked for errors.
+  - You cannot enter coordinates outside the boundaries of the options.
+  - You can just choose one option.
+  - Generated randomly
+
+
+- The Game Options
+
+  - The game options include a clear icons and each button has a title, It's visible for them when user hover with mouse on it.
+  - In this section the user can click on buttons and make their choice and plays the game.
+
+  ![game_photo]()
+
+- The Game Results
+
+  - When the user make a choice, the option relating to their choice is shown on next line.
+  - Game randomly selects an option for the computer player and displays the option relating to the computer's choice and then determines who the winner is.
+  - The final score will show when user decided to exit the game and write the (Q) character.
+  - At the end of game will show the user and computer score.
+
+  ![game_result]()
