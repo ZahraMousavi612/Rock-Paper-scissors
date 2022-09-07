@@ -12,12 +12,10 @@ Link to deployed website - [Rock, Paper, Scissors_Game]()
 [Go to Features](#features)
   - [Go to Existing Features](#existing-features)
 
-[Go to Data Model](#data-model)
 
 [Go to Testing](#testing)
-  - [Go to Solved Bugs](#solved-bugs)
-  - [Go to Remaining Bugs](#remaining-bugs)
-  - [Go to Validator Testing](#validator-testing)
+
+[Go to Validator Testing](#validator-testing)
 
 [Go to Deployment](#deployment)
 
@@ -60,3 +58,17 @@ These options are "rock", "paper", and "scissors". It has three possible outcome
   - At the end of game will show the user and computer score.
 
   ![game_result]()
+  
+  
+## Testing
+
+I manually tested this project by carrying out the subsequent actions:
+
+- Verified there are no issues by running the code through a PEP8 linter.
+
+- Given invalid inputs: strings when numbers are anticipated, inputs that are outside of boundaries, and numerous instances of the same guess.
+
+- Tested in my local terminal and the Heroku terminal for the Code Institute.
+
+
+
