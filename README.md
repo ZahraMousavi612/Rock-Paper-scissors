@@ -1,31 +1,34 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors
 
-Welcome USER_NAME,
+Rock, Paper, Scissors is  Command terminal game for Python Users.
+This game plays between user and computer, in which each player simultaneously selects one of three options. These options are "rock", "paper", and "scissors". It has three possible outcomes: a draw, a win, or a loss. A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same option, the result will be draw.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+Link to deployed website - [Rock, Paper, Scissors_Game]()
 
-## Reminders
+![responsive_screenshot](/picture/screenshot.png)
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+[Go to How to Play](#how-to-play)
 
-## Creating the Heroku app
+[Go to Features](#features)
+  - [Go to Existing Features](#existing-features)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+[Go to Data Model](#data-model)
 
-1. `heroku/python`
-2. `heroku/nodejs`
+[Go to Testing](#testing)
+  - [Go to Solved Bugs](#solved-bugs)
+  - [Go to Remaining Bugs](#remaining-bugs)
+  - [Go to Validator Testing](#validator-testing)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+[Go to Deployment](#deployment)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+[Go to Credits](#credits)
 
-Connect your GitHub repository and deploy as normal.
+## How to Play
 
-## Constraints
+'Rock, Paper, Scissors' is Command game. On [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors), you may find out more information.
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
+This game plays between user and computer, in which each player simultaneously selects one of three options. 
 
------
-Happy coding!
+These options are "rock", "paper", and "scissors". It has three possible outcomes: a draw, a win, or a loss.
+
+ A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors"), but will lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same option, the result will be draw.
