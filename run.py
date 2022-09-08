@@ -41,7 +41,7 @@ def get_result(user_input, computer_pick):
 
 
 # main section and game start point
-while True :
+while True:
     user_input = input("Type Rock , Paper , Scissors or Q to quit: ").lower()
     if user_input == "q":
         break
