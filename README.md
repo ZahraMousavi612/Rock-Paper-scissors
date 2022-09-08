@@ -100,7 +100,6 @@ This project was deployed using Code Institute's mock terminal for Heroku.
  - Battleships game details by [Wikipedia](https://en.wikipedia.org/wiki/Main_Page)
  - Seperate lists code by [User648852 - Stack Overflow](https://stackoverflow.com/questions/13443588/how-can-i-format-a-list-to-print-each-element-on-a-separate-line-in-python)
 
- [Go back to top](# Rock, Paper, Scissors)
 
 
 
